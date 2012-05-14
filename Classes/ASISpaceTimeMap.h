@@ -19,6 +19,7 @@
 	// When incrementTime is called, we increment this, or reset it to zero if we're at the end of the time span
 	// This allows us to perform path finding part way through the time span
 	unsigned char currentTimeStep;
+	unsigned char timePointer;
 	
 }
 
